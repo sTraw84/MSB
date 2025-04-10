@@ -1,0 +1,17 @@
+How to use:
+
+1) Select Create Split CSV or Repack CSV.  Depending on which method you are using to repack.
+
+2) Follow the questions/prompts of either the Split/Repack screen and fill out all data.
+
+3) After everything is added to the CSV creator, select Save As.  Name file and save into the CSV Files in the script folder.
+
+4) Make sure WMS is opened and either in the LPN Configuration(Split) screen or the repack screen depending on how you made your CSV. The script can only run from these screen.  If the incorrect screen is open, the script won't execute the CSV.
+
+5a) Go back to the main GUI and select "Run Script", this should automatically open the script in SecureCRT.  If this doesn't work see 4b.
+
+5b) Only if 4a didn't work.  Click "Script" drop down menu at top in secureCRT.  Select "Run.." from the drop down.  Navigate to where the script folder is and select WMS_Script_1.5.1
+
+6) If the script successfully opens you will be prompted to select a CSV file.  Input your CSV files selection number and hit ok.
+
+7) The script should now run automatically as long as you are on the correct Split or Repack screen.
